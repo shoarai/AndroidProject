@@ -1,0 +1,72 @@
+
+
+
+
+
+.ui-header {
+  /*margin-top: 4px;*/
+  height: 44px;
+}
+
+
+
+.ui-header,
+.ui-footer {
+  /*background: #f3f3f3;*/
+  background: #FFF;
+  /*background: rgba(0,0,0,0);*/
+  border: none;
+}
+
+.ui-header .ui-btn,
+.ui-footer .ui-btn {
+  box-shadow: none;
+  background: rgba(0,0,0,0);
+}
+
+.ui-footer {
+  padding-top: 4px;
+  padding-left: 5px;
+}
+
+.ui-content .ui-btn {
+  text-shadow: none;
+  border: none;
+  margin: 2px 1px;
+  border-left: solid 5px #AAA;
+}
+
+#mainpage .ui-content .ui-btn {
+  background: #59f392;
+}
+#mainpage .ui-content .checked {
+  background: #27cf26;
+}
+#completedpage .ui-content .ui-btn {
+  background: #f68eee;
+}
+
+#completed {
+  border: solid 1px #f68eee;
+}
+#add {
+  border: solid 1px #27cf26;
+}
+#incompleted {
+  border: solid 1px #27cf26;
+}
+#complete {
+  border: solid 1px #25d1f8;
+}
+/*.ui-content .ui-li {
+  /*height: 44px;  /*margin: 0 10px;*/
+  /*background: #c1ecc1;*/  /*box-shadow: none;*/
+  /*text-shadow: none;
+}*/
+/*
+.ui-footer {
+  background: #ad7c1a;
+  
+}
+
+*/

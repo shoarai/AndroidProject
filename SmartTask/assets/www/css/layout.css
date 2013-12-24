@@ -1,0 +1,37 @@
+
+
+
+/* Galaxy S2
+body {
+  width: 480px;
+  height: 800px;
+}*/
+
+body {
+  font-family: Arial, Helvetica, sans-serif, "ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3";
+}
+
+/**
+ *   header
+ */
+.ui-header {
+  height: 34px;
+  padding-top: 10px;
+}
+
+.ui-header .ui-listview {
+}
+
+.ui-header .ui-listview li{
+  width: 100px;
+  margin-top: 50px;
+  display: inline;
+}
+
+/**
+ *   footer
+ */
+.ui-footer {
+  background: rgba(0,0,0,0);
+  border: none;
+}
