@@ -1,0 +1,19 @@
+{
+  "name": "shoarai",
+  "version": "0.0.0",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.0.3",
+    "jquery-mobile": "~1.4.0"
+  },
+  "devDependencies": {
+    "jasmine": "~2.0.0"
+  }
+}
