@@ -35,3 +35,17 @@ body {
   background: rgba(0,0,0,0);
   border: none;
 }
+
+/**
+ *   content
+ */
+.checked {
+  text-decoration: line-through;
+}
+
+.ui-content {
+}
+
+#edit-textarea {
+  height: 300px;
+}

@@ -3,5 +3,5 @@
  */
 
 $(document).on('pageinit', '#main-page', function() {
-  
+  taskMVC();
 });

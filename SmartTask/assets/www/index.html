@@ -13,25 +13,25 @@
   <!-- タスクの種類 -->
   <header data-role="header" id="main-header" data-position="fixed" data-tap-toggle="false">
     <ul data-role="listview">
-      <li class="ui-btn-active ui-state-persist">仕事</li>
-      <li>アプリ</li>
     </ul>
   </header>
   <!-- タスク一覧 -->
-  <section data-role="content">
+  <section data-role="content" id="main-content">
     <ul data-role="listview">
-      <li>テストテストテストテストテストテストテストテストテストテストテス<br>トテストテストテストテストテストテストテストテストテストテスト</li>
     </ul>
   </section>
   <!-- フッター -->
   <footer data-role="footer" data-position="fixed" data-tap-toggle="false">
-    <a data-type="button" data-icon="delete">完了</a>
+    <a data-type="button" data-icon="delete" id="complete">完了</a>
+    <a data-type="button" data-icon="edit" id="edit" class="ui-btn-right">編集</a>
   </footer>
 </div>
 <script src="lib/jquery-2.0.3.min.js"></script>
-<script src="lib/underscore-min.js"></script>
-<script src="lib/backbone-min.js"></script>
+<!-- <script src="lib/underscore-min.js"></script>
+<script src="lib/backbone-min.js"></script> -->
 <script src="lib/jquerymobile/jquery.mobile-1.3.2.min.js"></script>
+<script src="js/taskModel.js"></script>
+<script src="js/taskView.js"></script>
 <script src="js/index.js"></script>
 </body>
 </html>
